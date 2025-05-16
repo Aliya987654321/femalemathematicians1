@@ -1,0 +1,77 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:darkslategray;
+    color: white;
+}
+header.logo{
+    width: 100px;
+}
+header.college-name{
+    text-align: center;
+    flex-grow: 1;
+}
+header.college-name h1{
+    font-size: 24x;
+    font-weight: bold;
+}
+.table{
+    margin-top: 30px;
+    width:55%;
+    margin-left:20%;
+    text-align:center;
+    
+}
+.th,tr{
+
+    padding: 16%;
+    text-align: center;
+}
+.fontstyle{
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.main{
+    display: flex;
+    margin: 20 px;
+    flex-direction: row;
+
+}
+
+header.logo{
+    width:100px;
+}
+header.college-name{
+    text-align: centre;
+    flex-grow: 1;
+}
+header.college-name h1{
+    font-size: 24x;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    margin: 20px;
+}
+footer{
+    text-align: center;
+    margin-top: 25%;
+    padding: 20px;
+    background-color:darkslategray;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+footer p{ 
+    font-size: 14px;
+}
+
